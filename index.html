@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smooth Image Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="slider-container">
+        <div class="slides">
+            <!-- Original Slides -->
+            <div class="slide"><img src="https://picsum.photos/id/1015/800/400" alt="Slide 1"></div>
+            <div class="slide"><img src="https://picsum.photos/id/1025/800/400" alt="Slide 2"></div>
+            <div class="slide"><img src="https://picsum.photos/id/1035/800/400" alt="Slide 3"></div>
+            <div class="slide"><img src="https://picsum.photos/id/1045/800/400" alt="Slide 4"></div>
+            <!-- Clone of first slide for smooth loop -->
+            <div class="slide"><img src="https://picsum.photos/id/1015/800/400" alt="Slide 1 Clone"></div>
+        </div>
+
+        <!-- Controls -->
+        <div class="controls">
+            <button class="btn prev">❮</button>
+            <button class="btn next">❯</button>
+        </div>
+    </div>
+
+    <!-- Dark/Light Mode Toggle -->
+    <button class="theme-toggle">🌙 Dark Mode</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
